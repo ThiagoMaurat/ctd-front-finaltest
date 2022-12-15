@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-export const ContainerCita = styled.div`
+export const ContainerQuote = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +15,7 @@ export const ContainerCita = styled.div`
   background-color: whitesmoke;
 `;
 
-export const TextoCita = styled.p`
+export const TextoQuote = styled.p`
   font-size: 2rem;
   font-weight: bold;
   color: #333;
@@ -24,7 +24,7 @@ export const TextoCita = styled.p`
   min-height: 5rem;
 `;
 
-export const AutorCita = styled.p`
+export const AutorQuote = styled.p`
   font-size: 1.7rem;
   font-weight: bold;
   color: #333;
@@ -55,11 +55,9 @@ export const Botao = styled.button<{ secondary?: boolean }>`
   margin: 1rem auto;
   font-family: "Homer Simpson Revised", sans-serif;
   font-size: 1.5rem;
-
   &:hover {
     cursor: pointer;
   }
-
   ${(props) =>
     props.secondary
       ? css`

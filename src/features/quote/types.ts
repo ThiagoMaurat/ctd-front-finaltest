@@ -1,6 +1,6 @@
-export interface ICita {
+export interface IQuote {
   personagem: string;
-  cita: string;
+  quote: string;
   image: string;
   direcaoPersonagem: string;
 }

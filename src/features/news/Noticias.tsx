@@ -69,7 +69,7 @@ export const Notes = () => {
       <ListaNoticias>
         {notes.map((notes) => (
           <CardNoticia>
-            <ImageCardNoticia src={notes.image} />
+            <ImageCardNoticia src={notes.image} alt={notes.description} />
             <TituloCardNoticia>{notes.title}</TituloCardNoticia>
             <DateCardNoticia>{notes.date}</DateCardNoticia>
             <DescriptionCardNoticia>
